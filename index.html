@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Global industrial equipment and spare parts supply. Reliable international B2B partner delivering industrial machinery, critical spare parts, and end-to-end logistics solutions worldwide." />
+  <title>Coaldale Commercial PTE LTD – Global Industrial Equipment & Spare Parts Supply</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════ NAVIGATION ═══════════════════════════ -->
+  <header class="nav-header" id="nav-header">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo" id="nav-logo-link">
+        <span class="logo-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <rect x="2" y="14" width="10" height="12" fill="currentColor" opacity="0.9" />
+            <rect x="8" y="8" width="10" height="18" fill="currentColor" />
+            <rect x="16" y="4" width="10" height="22" fill="currentColor" opacity="0.75" />
+          </svg>
+        </span>
+        <span class="logo-text">Coaldale Commercial</span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#advantages" class="nav-link">Why Us</a>
+        <a href="#industries" class="nav-link">Industries</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-nav">Get in Touch</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav" id="mobile-nav">
+    <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">✕</button>
+    <a href="#about" class="mobile-nav-link">About</a>
+    <a href="#services" class="mobile-nav-link">Services</a>
+    <a href="#advantages" class="mobile-nav-link">Why Us</a>
+    <a href="#industries" class="mobile-nav-link">Industries</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+    <a href="#contact" class="btn btn-primary mobile-cta">Get in Touch</a>
+  </div>
+
+  <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <!-- Minimal blueprint / engineering SVG background -->
+      <svg class="hero-svg-scene" viewBox="0 0 1440 700" preserveAspectRatio="xMidYMid slice"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#08111f" />
+            <stop offset="100%" stop-color="#0f2547" />
+          </linearGradient>
+          <!-- Fine isometric grid pattern -->
+          <pattern id="isoGrid" x="0" y="0" width="60" height="52" patternUnits="userSpaceOnUse">
+            <!-- Isometric diamond lines -->
+            <line x1="0" y1="26" x2="30" y2="0" stroke="rgba(255,255,255,0.045)" stroke-width="1" />
+            <line x1="30" y1="0" x2="60" y2="26" stroke="rgba(255,255,255,0.045)" stroke-width="1" />
+            <line x1="0" y1="26" x2="30" y2="52" stroke="rgba(255,255,255,0.045)" stroke-width="1" />
+            <line x1="30" y1="52" x2="60" y2="26" stroke="rgba(255,255,255,0.045)" stroke-width="1" />
+          </pattern>
+        </defs>
+        <!-- Base dark gradient -->
+        <rect width="1440" height="700" fill="url(#bgGrad)" />
+        <!-- Iso grid, fades at edges -->
+        <rect width="1440" height="700" fill="url(#isoGrid)" />
+        <!-- Horizontal rule lines (blueprint feel) -->
+        <line x1="0" y1="233" x2="1440" y2="233" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+        <line x1="0" y1="466" x2="1440" y2="466" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+        <line x1="480" y1="0" x2="480" y2="700" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+        <line x1="960" y1="0" x2="960" y2="700" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+
+        <!-- ─── GLOBE WIREFRAME (right side) ─── -->
+        <g transform="translate(1150,350)" opacity="0.18">
+          <!-- Outer circle -->
+          <circle cx="0" cy="0" r="220" stroke="#60a5fa" stroke-width="1" fill="none" />
+          <!-- Latitude lines -->
+          <ellipse cx="0" cy="0" rx="220" ry="70" stroke="#60a5fa" stroke-width="0.8" fill="none" />
+          <ellipse cx="0" cy="0" rx="220" ry="140" stroke="#60a5fa" stroke-width="0.8" fill="none" />
+          <ellipse cx="0" cy="0" rx="220" ry="200" stroke="#60a5fa" stroke-width="0.8" fill="none" />
+          <!-- Longitude lines -->
+          <ellipse cx="0" cy="0" rx="70" ry="220" stroke="#60a5fa" stroke-width="0.8" fill="none" />
+          <ellipse cx="0" cy="0" rx="140" ry="220" stroke="#60a5fa" stroke-width="0.8" fill="none" />
+          <!-- Equator -->
+          <line x1="-220" y1="0" x2="220" y2="0" stroke="#60a5fa" stroke-width="0.8" />
+          <!-- Meridian -->
+          <line x1="0" y1="-220" x2="0" y2="220" stroke="#60a5fa" stroke-width="0.8" />
+        </g>
+
+        <!-- ─── TRADE ROUTE ARCS (left → center → right) ─── -->
+        <g opacity="0.22" stroke="#3b82f6" fill="none" stroke-width="1">
+          <!-- Arc: Asia → Europe -->
+          <path d="M 200,420 Q 540,120 900,300" stroke-dasharray="6 5" />
+          <!-- Arc: Europe → Americas -->
+          <path d="M 900,300 Q 1150,180 1380,360" stroke-dasharray="6 5" />
+          <!-- Arc: Middle East diag -->
+          <path d="M 350,480 Q 660,260 960,350" stroke-dasharray="4 6" />
+        </g>
+
+        <!-- ─── ROUTE NODES (port / hub dots) ─── -->
+        <g fill="#60a5fa" opacity="0.55">
+          <circle cx="200" cy="420" r="4" />
+          <circle cx="540" cy="220" r="3" />
+          <circle cx="900" cy="300" r="5" />
+          <circle cx="1150" cy="240" r="3" />
+          <circle cx="1380" cy="360" r="4" />
+          <circle cx="350" cy="480" r="3" />
+          <circle cx="660" cy="320" r="3" />
+        </g>
+        <!-- Node pulse rings -->
+        <g fill="none" stroke="#60a5fa" opacity="0.2">
+          <circle cx="900" cy="300" r="16" stroke-width="1" />
+          <circle cx="900" cy="300" r="28" stroke-width="0.6" />
+          <circle cx="200" cy="420" r="12" stroke-width="1" />
+          <circle cx="1380" cy="360" r="12" stroke-width="1" />
+        </g>
+
+        <!-- ─── MINIMAL INDUSTRIAL SILHOUETTES (bottom edge) ─── -->
+        <!-- Factory outline - left -->
+        <g transform="translate(0,560)" opacity="0.08" fill="#93c5fd">
+          <rect x="40" y="60" width="60" height="80" />
+          <rect x="110" y="30" width="50" height="110" />
+          <rect x="170" y="50" width="40" height="90" />
+          <!-- Chimney stacks -->
+          <rect x="55" y="20" width="10" height="45" />
+          <rect x="75" y="30" width="10" height="35" />
+          <rect x="120" y="5" width="10" height="30" />
+          <rect x="140" y="12" width="10" height="23" />
+        </g>
+        <!-- Oil rig / tower - right -->
+        <g transform="translate(1180,430)" opacity="0.07" fill="#93c5fd">
+          <!-- Tower legs -->
+          <polygon points="60,180 40,80 80,80" />
+          <polygon points="60,180 50,80 70,80" fill="#0f2547" />
+          <!-- Cross braces -->
+          <line x1="45" y1="120" x2="75" y2="100" stroke="#93c5fd" stroke-width="2" fill="none" />
+          <line x1="45" y1="100" x2="75" y2="120" stroke="#93c5fd" stroke-width="2" fill="none" />
+          <line x1="47" y1="145" x2="73" y2="130" stroke="#93c5fd" stroke-width="2" fill="none" />
+          <!-- Top structure -->
+          <rect x="50" y="70" width="20" height="14" />
+          <rect x="55" y="55" width="10" height="20" />
+          <!-- Base platform -->
+          <rect x="20" y="178" width="80" height="8" />
+        </g>
+        <!-- Cargo ship silhouette - center bottom -->
+        <g transform="translate(560,610)" opacity="0.07" fill="#93c5fd">
+          <path d="M0,40 L20,0 L300,0 L320,40 Z" />
+          <rect x="60" y="-30" width="100" height="32" />
+          <rect x="80" y="-52" width="20" height="26" />
+          <rect x="120" y="-45" width="16" height="19" />
+        </g>
+      </svg>
+    </div>
+
+    <div class="hero-content container">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        International Trade Partner · Singapore
+      </div>
+      <h1 class="hero-headline">
+        Global Industrial Equipment<br />&amp; Spare Parts Supply
+      </h1>
+      <p class="hero-sub">
+        Reliable international B2B partner delivering industrial equipment,<br class="br-desktop" />
+        critical spare parts, and end-to-end logistics solutions worldwide.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary btn-lg">Request a Consultation</a>
+        <a href="#services" class="btn btn-ghost btn-lg">Our Services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">50+</span>
+          <span class="stat-label">Countries Covered</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">Global</span>
+          <span class="stat-label">Supplier Network</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">B2B</span>
+          <span class="stat-label">Enterprise Focus</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <div class="scroll-dot"></div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+  <section class="section about-section" id="about">
+    <div class="container about-grid">
+      <div class="about-visual" aria-hidden="true">
+        <div class="about-visual-inner">
+          <!-- Blueprint supply-chain schematic: Manufacture → Ship → Deliver -->
+          <svg viewBox="0 0 480 260" fill="none" xmlns="http://www.w3.org/2000/svg"
+            style="width:100%;height:auto;display:block;">
+
+            <!-- ── NODE 1: Factory / Manufacturing ── -->
+            <g transform="translate(30,60)">
+              <!-- Building body -->
+              <rect x="4" y="50" width="80" height="66" rx="2" stroke="#1d4ed8" stroke-width="1.8" fill="white"
+                fill-opacity="0.7" />
+              <!-- Roof sawtooth -->
+              <polyline points="4,50 18,28 32,50 46,28 60,50 74,28 84,50" stroke="#1d4ed8" stroke-width="1.8"
+                fill="none" />
+              <!-- Windows -->
+              <rect x="14" y="64" width="14" height="13" rx="1" stroke="#93c5fd" stroke-width="1.2" fill="#dbeafe"
+                fill-opacity="0.8" />
+              <rect x="38" y="64" width="14" height="13" rx="1" stroke="#93c5fd" stroke-width="1.2" fill="#dbeafe"
+                fill-opacity="0.8" />
+              <rect x="62" y="64" width="14" height="13" rx="1" stroke="#93c5fd" stroke-width="1.2" fill="#dbeafe"
+                fill-opacity="0.8" />
+              <!-- Door -->
+              <rect x="36" y="88" width="16" height="28" rx="1" stroke="#1d4ed8" stroke-width="1.2" fill="none" />
+              <!-- Chimneys -->
+              <rect x="58" y="10" width="8" height="22" rx="1" stroke="#1d4ed8" stroke-width="1.8" fill="white"
+                fill-opacity="0.7" />
+              <rect x="72" y="16" width="7" height="16" rx="1" stroke="#1d4ed8" stroke-width="1.5" fill="white"
+                fill-opacity="0.7" />
+            </g>
+            <text x="74" y="200" text-anchor="middle" font-size="10" fill="#1d4ed8" font-family="Inter,sans-serif"
+              font-weight="700" letter-spacing="0.05em">MANUFACTURE</text>
+
+            <!-- ── CONNECTOR 1 ── -->
+            <line x1="120" y1="126" x2="176" y2="126" stroke="#3b82f6" stroke-width="1.8" stroke-dasharray="5 4" />
+            <polygon points="176,121 186,126 176,131" fill="#3b82f6" />
+
+            <!-- ── NODE 2: Cargo Ship / Logistics ── -->
+            <g transform="translate(184,72)">
+              <!-- Hull -->
+              <path d="M4,70 L16,38 L96,38 L108,70 Z" stroke="#1d4ed8" stroke-width="1.8" fill="white"
+                fill-opacity="0.7" />
+              <!-- Superstructure -->
+              <rect x="30" y="18" width="48" height="22" rx="1" stroke="#1d4ed8" stroke-width="1.8" fill="#eff6ff"
+                fill-opacity="0.9" />
+              <!-- Masts -->
+              <line x1="46" y1="18" x2="46" y2="4" stroke="#1d4ed8" stroke-width="1.4" />
+              <line x1="64" y1="18" x2="64" y2="8" stroke="#1d4ed8" stroke-width="1.4" />
+              <!-- Containers on deck -->
+              <rect x="14" y="50" width="20" height="13" rx="1" stroke="#2563eb" stroke-width="1.2" fill="#dbeafe"
+                fill-opacity="0.8" />
+              <rect x="38" y="50" width="20" height="13" rx="1" stroke="#2563eb" stroke-width="1.2" fill="#bfdbfe"
+                fill-opacity="0.8" />
+              <rect x="62" y="50" width="20" height="13" rx="1" stroke="#2563eb" stroke-width="1.2" fill="#dbeafe"
+                fill-opacity="0.8" />
+              <!-- Water line wave -->
+              <path d="M0,82 Q14,76 28,82 Q42,88 56,82 Q70,76 84,82 Q98,88 112,82" stroke="#93c5fd" stroke-width="1.2"
+                fill="none" />
+            </g>
+            <text x="240" y="200" text-anchor="middle" font-size="10" fill="#1d4ed8" font-family="Inter,sans-serif"
+              font-weight="700" letter-spacing="0.05em">LOGISTICS</text>
+
+            <!-- ── CONNECTOR 2 ── -->
+            <line x1="300" y1="126" x2="356" y2="126" stroke="#3b82f6" stroke-width="1.8" stroke-dasharray="5 4" />
+            <polygon points="356,121 366,126 356,131" fill="#3b82f6" />
+
+            <!-- ── NODE 3: Warehouse / Delivery ── -->
+            <g transform="translate(364,58)">
+              <!-- Warehouse body -->
+              <rect x="4" y="40" width="88" height="78" rx="2" stroke="#1d4ed8" stroke-width="1.8" fill="white"
+                fill-opacity="0.7" />
+              <!-- Roof gable -->
+              <polyline points="-4,40 50,14 104,40" stroke="#1d4ed8" stroke-width="1.8" fill="none" />
+              <!-- Roller shutter door -->
+              <rect x="24" y="70" width="40" height="48" rx="1" stroke="#93c5fd" stroke-width="1.2" fill="#eff6ff"
+                fill-opacity="0.8" />
+              <!-- Shutter lines -->
+              <line x1="24" y1="80" x2="64" y2="80" stroke="#93c5fd" stroke-width="0.9" />
+              <line x1="24" y1="90" x2="64" y2="90" stroke="#93c5fd" stroke-width="0.9" />
+              <line x1="24" y1="100" x2="64" y2="100" stroke="#93c5fd" stroke-width="0.9" />
+              <line x1="24" y1="110" x2="64" y2="110" stroke="#93c5fd" stroke-width="0.9" />
+            </g>
+            <text x="410" y="200" text-anchor="middle" font-size="10" fill="#1d4ed8" font-family="Inter,sans-serif"
+              font-weight="700" letter-spacing="0.05em">DELIVERY</text>
+
+            <!-- ── Dimension bar ── -->
+            <line x1="36" y1="222" x2="444" y2="222" stroke="#bfdbfe" stroke-width="1" />
+            <line x1="36" y1="217" x2="36" y2="227" stroke="#bfdbfe" stroke-width="1" />
+            <line x1="444" y1="217" x2="444" y2="227" stroke="#bfdbfe" stroke-width="1" />
+            <text x="240" y="242" text-anchor="middle" font-size="9" fill="#93c5fd" font-family="Inter,sans-serif"
+              letter-spacing="0.09em">END-TO-END SUPPLY CHAIN</text>
+
+            <!-- Corner crosshairs (blueprint registration) -->
+            <g stroke="#bfdbfe" stroke-width="0.9" opacity="0.6">
+              <line x1="8" y1="14" x2="20" y2="14" />
+              <line x1="14" y1="8" x2="14" y2="20" />
+              <line x1="460" y1="14" x2="472" y2="14" />
+              <line x1="466" y1="8" x2="466" y2="20" />
+              <line x1="8" y1="246" x2="20" y2="246" />
+              <line x1="14" y1="240" x2="14" y2="252" />
+              <line x1="460" y1="246" x2="472" y2="246" />
+              <line x1="466" y1="240" x2="466" y2="252" />
+            </g>
+          </svg>
+          <div class="visual-badge-1">EST. SG</div>
+          <div class="visual-badge-2">Global Trade</div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <div class="section-label">About Us</div>
+        <h2 class="section-title">Specialized International<br />Trading Company</h2>
+        <p class="about-lead">
+          We are a specialized international trading company focused on the supply of industrial equipment and spare
+          parts for large enterprises and infrastructure projects.
+        </p>
+        <p class="about-body">
+          With strong global partnerships and deep expertise in cross-border trade, we ensure seamless procurement,
+          secure transactions, and efficient delivery across multiple regions. Our mission is to provide dependable
+          supply solutions that support operational continuity and long-term industrial growth.
+        </p>
+        <div class="about-pillars">
+          <div class="pillar">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                <path d="M2 17l10 5 10-5" stroke="currentColor" stroke-width="2" />
+                <path d="M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" />
+              </svg>
+            </div>
+            <div>
+              <strong>Global Network</strong>
+              <p>Trusted suppliers across Asia, Europe &amp; Americas</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20">
+                <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" stroke="currentColor"
+                  stroke-width="2" />
+              </svg>
+            </div>
+            <div>
+              <strong>Compliance First</strong>
+              <p>Full adherence to international trade standards</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <strong>Risk Managed</strong>
+              <p>Secure, transparent cross-border transactions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ SERVICES ═══════════════════════════ -->
+  <section class="section services-section" id="services">
+    <div class="section-pattern hex-pattern" aria-hidden="true"></div>
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-label">What We Do</div>
+        <h2 class="section-title">Our Core Services</h2>
+        <p class="section-desc">End-to-end industrial supply solutions tailored for global B2B operations.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon-wrap" style="--icon-color: #1d4ed8;">
+            <svg viewBox="0 0 32 32" fill="none" width="28" height="28">
+              <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2" />
+              <path d="M4 16h24M16 4c-3 4-5 8-5 12s2 8 5 12M16 4c3 4 5 8 5 12s-2 8-5 12" stroke="currentColor"
+                stroke-width="1.8" />
+            </svg>
+          </div>
+          <h3 class="service-title">Global Equipment Sourcing</h3>
+          <p class="service-desc">Procurement of industrial machinery and technical equipment from trusted international
+            manufacturers across all major markets.</p>
+          <div class="service-tag">Procurement</div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap" style="--icon-color: #0369a1;">
+            <svg viewBox="0 0 32 32" fill="none" width="28" height="28">
+              <rect x="4" y="10" width="24" height="16" rx="2" stroke="currentColor" stroke-width="2" />
+              <path d="M10 10V8a2 2 0 012-2h8a2 2 0 012 2v2" stroke="currentColor" stroke-width="2" />
+              <path d="M16 16v4M13 16h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="service-title">Spare Parts Supply</h3>
+          <p class="service-desc">Reliable supply of original and OEM spare parts for heavy industry and production
+            facilities, minimizing downtime and operational risk.</p>
+          <div class="service-tag">OEM &amp; Original</div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap" style="--icon-color: #0f766e;">
+            <svg viewBox="0 0 32 32" fill="none" width="28" height="28">
+              <path d="M4 20l7-12 5 6 3-4 6 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <circle cx="26" cy="8" r="3" stroke="currentColor" stroke-width="2" />
+              <path d="M26 11v10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="service-title">End-to-End Logistics</h3>
+          <p class="service-desc">Coordination of international shipping, customs clearance, documentation, and delivery
+            management from origin to destination.</p>
+          <div class="service-tag">Logistics</div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap" style="--icon-color: #7c3aed;">
+            <svg viewBox="0 0 32 32" fill="none" width="28" height="28">
+              <path d="M6 10h20M6 16h20M6 22h12" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              <circle cx="25" cy="23" r="4" stroke="currentColor" stroke-width="2" />
+              <path d="M23 23l1.5 1.5L27 21.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="service-title">Supplier &amp; Contract Management</h3>
+          <p class="service-desc">Structured negotiation, compliance control, and long-term supplier relationship
+            management to protect your interests.</p>
+          <div class="service-tag">Contracts</div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap" style="--icon-color: #c2410c;">
+            <svg viewBox="0 0 32 32" fill="none" width="28" height="28">
+              <path d="M16 4l3 6 7 1-5 5 1.5 7L16 20l-6.5 3 1.5-7-5-5 7-1z" stroke="currentColor" stroke-width="2"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3 class="service-title">Custom Procurement Solutions</h3>
+          <p class="service-desc">Tailored sourcing strategies aligned with your project specifications, technical
+            requirements, and commercial objectives.</p>
+          <div class="service-tag">Bespoke</div>
+        </div>
+
+        <div class="service-card service-card-cta">
+          <div class="service-cta-inner">
+            <p class="service-cta-label">Ready to get started?</p>
+            <h3>Let's discuss your supply requirements</h3>
+            <a href="#contact" class="btn btn-primary">Contact Our Team</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ ADVANTAGES ═══════════════════════════ -->
+  <section class="section advantages-section" id="advantages">
+    <div class="section-pattern steel-pattern" aria-hidden="true"></div>
+    <div class="container">
+      <div class="advantages-inner">
+        <div class="advantages-left">
+          <div class="section-label light">Why Choose Us</div>
+          <h2 class="section-title light">Built on Trust,<br />Delivered with Precision</h2>
+          <p class="advantages-tagline">
+            We prioritize reliability, efficiency, and professionalism in every transaction.
+          </p>
+          <a href="#contact" class="btn btn-white">Start a Partnership</a>
+        </div>
+        <div class="advantages-right">
+          <div class="advantage-item">
+            <div class="adv-check">
+              <svg viewBox="0 0 20 20" fill="none" width="16" height="16">
+                <path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <strong>Established global supplier network</strong>
+              <p>Vetted manufacturers and distributors across key industrial regions worldwide.</p>
+            </div>
+          </div>
+          <div class="advantage-item">
+            <div class="adv-check">
+              <svg viewBox="0 0 20 20" fill="none" width="16" height="16">
+                <path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <strong>Strict compliance with international trade standards</strong>
+              <p>Full documentation, certifications, and regulatory adherence for every shipment.</p>
+            </div>
+          </div>
+          <div class="advantage-item">
+            <div class="adv-check">
+              <svg viewBox="0 0 20 20" fill="none" width="16" height="16">
+                <path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <strong>Transparent commercial terms</strong>
+              <p>Clear pricing, structured contracts, and no hidden costs or ambiguity.</p>
+            </div>
+          </div>
+          <div class="advantage-item">
+            <div class="adv-check">
+              <svg viewBox="0 0 20 20" fill="none" width="16" height="16">
+                <path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <strong>Fast and reliable logistics coordination</strong>
+              <p>Optimized routing and active tracking to minimize lead times globally.</p>
+            </div>
+          </div>
+          <div class="advantage-item">
+            <div class="adv-check">
+              <svg viewBox="0 0 20 20" fill="none" width="16" height="16">
+                <path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <strong>Risk-managed cross-border transactions</strong>
+              <p>Structured payment terms and due diligence to protect every deal.</p>
+            </div>
+          </div>
+          <div class="advantage-item">
+            <div class="adv-check">
+              <svg viewBox="0 0 20 20" fill="none" width="16" height="16">
+                <path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <strong>Long-term strategic partnership approach</strong>
+              <p>We build relationships, not just transactions. Your growth is our commitment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ INDUSTRIES ═══════════════════════════ -->
+  <section class="section industries-section" id="industries">
+    <div class="section-pattern topo-pattern" aria-hidden="true"></div>
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-label">Sectors</div>
+        <h2 class="section-title">Industries We Serve</h2>
+        <p class="section-desc">We support both ongoing operational needs and large-scale industrial projects across
+          critical sectors.</p>
+      </div>
+      <div class="industries-grid">
+        <div class="industry-card">
+          <div class="industry-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="40" height="40">
+              <rect x="8" y="20" width="10" height="22" stroke="currentColor" stroke-width="2" />
+              <rect x="19" y="14" width="10" height="28" stroke="currentColor" stroke-width="2" />
+              <rect x="30" y="8" width="10" height="34" stroke="currentColor" stroke-width="2" />
+              <path d="M4 42h40" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              <path d="M8 20l5-10 6 4 5-8 6 5 5-9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>Manufacturing</h3>
+          <p>Industrial machinery, production lines, and precision components for factories worldwide.</p>
+        </div>
+        <div class="industry-card">
+          <div class="industry-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="40" height="40">
+              <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2" />
+              <path d="M24 4v4M24 40v4M4 24h4M40 24h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              <path d="M10.1 10.1l2.83 2.83M35.07 35.07l2.83 2.83M10.1 37.9l2.83-2.83M35.07 12.93l2.83-2.83"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3>Energy &amp; Power Generation</h3>
+          <p>Equipment and spare parts for power plants, turbines, substations, and energy infrastructure.</p>
+        </div>
+        <div class="industry-card">
+          <div class="industry-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="40" height="40">
+              <path d="M6 42l8-16 6 8 5-12 6 8 5-14 6 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M14 18l4-10 4 6 4-8 4 6 4-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>Mining &amp; Metallurgy</h3>
+          <p>Heavy-duty equipment, processing machinery, and wear parts for extractive industries.</p>
+        </div>
+        <div class="industry-card">
+          <div class="industry-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="40" height="40">
+              <rect x="6" y="30" width="36" height="12" stroke="currentColor" stroke-width="2" />
+              <path d="M12 30V18l6-6h12l6 6v12" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+              <path d="M20 42V30h8v12" stroke="currentColor" stroke-width="2" />
+              <path d="M6 30h36" stroke="currentColor" stroke-width="2" />
+            </svg>
+          </div>
+          <h3>Construction &amp; Infrastructure</h3>
+          <p>Construction machinery, structural components, and project equipment for large-scale builds.</p>
+        </div>
+        <div class="industry-card">
+          <div class="industry-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="40" height="40">
+              <circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="2" />
+              <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="2" />
+              <path d="M24 10v4M24 34v4M10 24h4M34 24h4" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" />
+              <path d="M24 18v6l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3>Oil &amp; Gas</h3>
+          <p>Valves, pumps, safety systems, and critical components for upstream and downstream facilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+  <section class="section contact-section" id="contact">
+    <div class="section-pattern dot-pattern" aria-hidden="true"></div>
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">Let's Discuss<br />Your Project</h2>
+        <p class="contact-intro">
+          For partnership inquiries, equipment sourcing requests, or long-term supply contracts, contact our team.
+        </p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">Email</span>
+              <a href="mailto:Coaldalesg@protonmail.com" class="contact-value">Coaldalesg@protonmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="2" />
+                <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Singapore</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" />
+                <polyline points="12 6 12 12 16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">Response Time</span>
+              <span class="contact-value">Within 24 business hours</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Full Name *</label>
+              <input type="text" id="fname" name="fname" placeholder="John Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="fcompany">Company</label>
+              <input type="text" id="fcompany" name="fcompany" placeholder="Your Company Ltd." />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="femail">Email Address *</label>
+            <input type="email" id="femail" name="femail" placeholder="john@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="fsubject">Subject</label>
+            <select id="fsubject" name="fsubject">
+              <option value="" disabled selected>Select inquiry type</option>
+              <option>Equipment Sourcing</option>
+              <option>Spare Parts Supply</option>
+              <option>Logistics &amp; Shipping</option>
+              <option>Partnership Inquiry</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Message *</label>
+            <textarea id="fmessage" name="fmessage" rows="4"
+              placeholder="Describe your requirements, equipment specifications, or project details..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="form-submit">
+            <span class="btn-text">Become a Partner</span>
+            <svg class="btn-arrow" viewBox="0 0 20 20" fill="none" width="18" height="18">
+              <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="form-success" id="form-success" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo footer-logo">
+          <span class="logo-icon">
+            <svg width="22" height="22" viewBox="0 0 28 28" fill="none">
+              <rect x="2" y="14" width="10" height="12" fill="currentColor" opacity="0.9" />
+              <rect x="8" y="8" width="10" height="18" fill="currentColor" />
+              <rect x="16" y="4" width="10" height="22" fill="currentColor" opacity="0.75" />
+            </svg>
+          </span>
+          <span class="logo-text">Coaldale Commercial</span>
+        </a>
+        <p class="footer-tagline">Coaldale Commercial PTE LTD</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#advantages">Why Us</a>
+        <a href="#industries">Industries</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-contact">
+        <a href="mailto:Coaldalesg@protonmail.com">Coaldalesg@protonmail.com</a>
+        <span>Singapore</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>&copy; 2025 Coaldale Commercial PTE LTD. All rights reserved.</span>
+        <span class="footer-sub">International Industrial Equipment Supply</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
